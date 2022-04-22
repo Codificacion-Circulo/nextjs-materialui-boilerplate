@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 
 const Home: NextPage = () => {
   return (
-    <Container maxWidth='lg'>
+    <Container maxWidth="lg">
       <Box
         sx={{
           my: 5,
@@ -16,10 +16,10 @@ const Home: NextPage = () => {
           alignItems: 'center',
         }}
       >
-        <Typography component='h1' color='primary'>
+        <Typography component="h1" color="primary">
           Material UI v5 with Next.js in TypeScript
         </Typography>
-        <Typography component='h2' color='secondary'>
+        <Typography component="h2" color="secondary">
           Boilerplate for building faster.
         </Typography>
       </Box>
